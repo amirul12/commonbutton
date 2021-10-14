@@ -1,7 +1,6 @@
 name: common_button
 description: A new Flutter package with a customize button.
-version: 0.0.1
-author: Amirul Islam
+version: 0.0.2
 homepage: https://github.com/amirul12/commonbutton
 
 environment:

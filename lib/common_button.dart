@@ -20,6 +20,7 @@ class CommonButton extends StatelessWidget {
       this.onPress,
       this.radius = 11,
       this.fSize = 14,
+      this.bgColor = Colors.orange,
       this.fontWeight = FontWeight.normal,
       this.textAlign = Alignment.center})
       : super(key: key);
@@ -27,7 +28,7 @@ class CommonButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (onPress == null) {
-      bgColor = Color(0xD0C2C2C2);
+      bgColor = Colors.amber;
     } else {
       if (bgColor! == null) {
         bgColor = Colors.amber;
@@ -52,9 +53,7 @@ class CommonButton extends StatelessWidget {
               ),
             ),
           ),
-          onPressed: () {
-            onPress;
-          }),
+          onPressed:()=> onPress!())
     );
   }
 }

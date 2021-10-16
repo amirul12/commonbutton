@@ -1,13 +1,13 @@
-## 0.0.2
+## 0.0.3
 
-* TODO: Describe initial release.
-Example 
-
-CommonButton(
-    onPress: _incrementCounter,
-    text: "Counter",
-    textAlign: Alignment.center,
-    tColor: Colors.white,
-    bgColor: Colors.orange,
+* Simple example , how to use common button.
+Example
+    CommonButton(
+        onPress: _incrementCounter,
+        text: "Counter",
+        textAlign: Alignment.center,
+        tColor: Colors.white,
+        bgColor: Colors.orange,
+        isIcon: false,
+        customShape: 1,
     ),
-),

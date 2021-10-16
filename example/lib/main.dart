@@ -71,8 +71,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 textAlign: Alignment.center,
                 tColor: Colors.white,
                 bgColor: Colors.orange,
+                isIcon: false,
+                customShape: 1,
               ),
             ),
+
+
+
+
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
@@ -84,3 +90,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+

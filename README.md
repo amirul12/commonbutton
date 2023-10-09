@@ -2,7 +2,7 @@ A Flutter custom common button that frequently use in flutter project.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 
 - [common_button](#common_button)
@@ -14,14 +14,14 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 
 ### common_button
-the default effects is Icons.favorite
+### the default effects is Icons.favorite
 ```dart
   CommonButton(), 
   // give some parameter 
 ```
 
 ### how-to-use-it
-and you can also define custom use.
+*and you can also define custom use.*
 
 ```dart
     CommonButton(

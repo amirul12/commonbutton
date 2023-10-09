@@ -1,6 +1,7 @@
-## 0.0.3
+## 0.0.4
 
 * Simple example , how to use common button.
+# updated
 Example
     CommonButton(
         onPress: _incrementCounter,
